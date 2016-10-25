@@ -57,6 +57,7 @@ namespace Test123MobileAppService
             {
                 new TodoItem { Id = Guid.NewGuid().ToString(), Text = "First item", Complete = false },
                 new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Second item", Complete = false },
+                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Third item", Complete = false },
             };
 
             foreach (TodoItem todoItem in todoItems)
